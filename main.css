@@ -1,0 +1,48 @@
+:root {
+  --pageBackground: lightgrey;
+  --cardBackground: white;
+  --subtitleColor: #cf9fff;
+}
+
+* {
+  margin: 0;
+}
+body {
+  background: var(--pageBackground);
+}
+img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  box-shadow: 0px 0px 5px 5px black;
+  margin-bottom: 10px;
+}
+.bagimage {
+  height: 70vh;
+}
+
+h3 {
+  text-transform: capitalize;
+  font-family: "Arial Narrow Bold", sans-serif;
+}
+
+.section-title {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+.blogs-center {
+  margin: 5rem;
+  background: var(--pageBackground);
+}
+.subtitle {
+  color: var(--subtitleColor);
+  font-size: 20px;
+}
+.blog {
+  background: var(--cardBackground);
+  padding: 2rem;
+  border-radius: 25px;
+  margin-bottom: 50px;
+}
